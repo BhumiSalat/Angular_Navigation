@@ -4,19 +4,24 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layout/header/header.component';
-import { SidebarComponent } from './layout/sidebar/sidebar.component';
+
 import { FooterComponent } from './layout/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { ServiceComponent } from './pages/service/service.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SidebarComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    SidebarComponent,
+    ServiceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
